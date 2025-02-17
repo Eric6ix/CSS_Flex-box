@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #1e292b;
+  width: 100vh;
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+.item {
+  background-color: #7e22ce;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.item2 {
+ align-self: flex-start;
+}
+/* mdn web docs */
